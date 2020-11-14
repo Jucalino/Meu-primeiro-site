@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 48px;
+    margin-bottom: 2px;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.minhaFoto {
+    width: 25%;
+}
+
+.segundaFoto {
+    width: 25%;
+}
+
+.entornoGostos {
+    display: flex;
+}
+
+.quadrado {
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.roxo {
+    background-color: #e7b1f2;
+}
+
+.vermelho {
+    background-color: #f57171;
+}
+
+.laranja {
+    background-color: #f5a869;
+}
+
+.cinza {
+    background-color: #c8cccc;
+}
+
+.resumo {
+    background-color: #e0ecff;
+    width: 100%;
+    padding: 10px;
+}
+
+.resumoFoto {
+    display: flex;
+    text-align: center;
+}
+
+.contatos {
+    font-family: 'Xanh Mono', monospace;
+}
+
+.conteinerContato {
+    display: flex;
+}
+
+.iconGit {
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconInsta {
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconTwitter {
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconFace {
+    width: 2rem;
+    height: 2rem;
+}
+
+.conteinerContatos {
+    display: flex;
+    justify-content: center;
+}
+
+.redondo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.redondo:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.descricaoContato,
+.titulosContatos {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.frase {
+    background-color: cornsilk;
+    padding: 15px 0px;
+}
+
+.textoFrase {
+    text-align: center;
+}
